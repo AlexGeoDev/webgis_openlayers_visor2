@@ -1,0 +1,30 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header {
+  margin: 0.5rem auto;
+  position: sticky;
+  opacity: .8;
+  margin-left: 15vw;
+  width: 80vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 1;
+}
+
+.header_title {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 70vw;
+}
